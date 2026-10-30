@@ -20,7 +20,7 @@ Le texte est du Markdown normal, lisible tel quel sur GitHub. Tout ce dont la pl
 
 - **Mode** : `instructor_led`
 - **Validation** : `checkpoint`
-- **Points par étape** : XP par étape repris de LuaPong (10 XP par minute estimée, en multiples de 5), fixés étape par étape (1200 XP au total, plus 200 XP pour l'étape bonus, pour une durée estimée d'environ 2 h 20). Les points CTFd sont les XP Jump, un pour un. On les change ici, puis on resynchronise : jamais à la main dans l'admin CTFd.
+- **Points par étape** : XP par étape repris de LuaPong (10 XP par minute estimée, en multiples de 5), fixés étape par étape (1200 XP au total, plus 200 XP pour l'étape bonus, pour une durée estimée de 2 h). Les points CTFd sont les XP Jump, un pour un. On les change ici, puis on resynchronise : jamais à la main dans l'admin CTFd.
 
 | Étape | Validation | XP |
 |---|---|---|
