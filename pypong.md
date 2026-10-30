@@ -116,7 +116,7 @@ Pour lancer ton code :
 <!-- ws: {type: chapter, topology: linear} -->
 
 ### Faire bouger le pad
-<!-- ws: {type: exercise, id: pad-mouvement, points: 200} -->
+<!-- ws: {type: exercise, id: pad-mouvement, points: 250} -->
 
 Pour faire bouger le pad avec le clavier, il faut :
 
@@ -172,7 +172,7 @@ La fonction **`btn`** prend en paramètre un nombre (3 : flèche droite du clavi
 
 </details>
 
-<!-- ws: {type: quiz, id: btn-doc, title: "Les touches du joueur", kind: multiple, points: 20} -->
+<!-- ws: {type: quiz, id: btn-doc, title: "Les touches du joueur", kind: multiple, points: 25} -->
 > Avec TIC-80, si je souhaite avoir l'état des touches haut et bas du joueur 1, je dois utiliser dans mon code (2 réponses correctes)
 
 * A. btn(0)
@@ -274,7 +274,7 @@ Tu as 3 cas à gérer : la balle doit rebondir quand elle touche
 
 ![La balle rebondit sur la bordure du haut, puis sur la bordure de droite. En bas, rien ne l'arrête pour l'instant.](img/balle-rebond.gif)
 
-<!-- ws: {type: quiz, id: rebond, title: "Le sens du rebond", kind: match, points: 20} -->
+<!-- ws: {type: quiz, id: rebond, title: "Le sens du rebond", kind: match, points: 25} -->
 > Fais correspondre la vitesse initiale de la balle sur un axe avec sa nouvelle vitesse sur ce même axe, pour qu'elle reparte dans l'autre sens.
 
 - A. 0
@@ -293,7 +293,7 @@ Vérifie le comportement de ton programme :
 
 
 ### Gérer le respawn et la collision avec le pad
-<!-- ws: {type: exercise, id: respawn, points: 250} -->
+<!-- ws: {type: exercise, id: respawn, points: 300} -->
 
 #### Respawn
 <!-- ws:doit -->
@@ -318,7 +318,7 @@ Utilise une triple condition avec les variables `ballx`, `bally`, `padx`, `pady`
 </details>
 
 ### Ajouter une interface
-<!-- ws: {type: exercise, id: interface, points: 300} -->
+<!-- ws: {type: exercise, id: interface, points: 200} -->
 
 #### Le score
 <!-- ws:doit -->
