@@ -28,7 +28,7 @@ runtime:
 platform:
   mode_default: instructor_led
   validation_default: checkpoint
-  points_default: 25          # every step sets its own: 1 XP per estimated minute
+  points_default: 25          # every step sets its own: 10 XP per estimated minute
 
 documents:
   - intro.md
