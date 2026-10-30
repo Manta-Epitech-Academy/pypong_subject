@@ -313,7 +313,9 @@ Lorsque la balle se retrouve en collision avec le pad, tu vas devoir faire en so
 <!-- ws: {type: hint} -->
 <details><summary>Indice</summary>
 
-Utilise une triple condition avec les variables `ballx`, `bally`, `padx`, `pady` et `padw` pour gérer la collision.
+Utilise une triple condition avec `and` (outil #6) et les variables `ballx`, `bally`, `padx` et `padw`. Le pad est dessiné à la hauteur `110`.
+
+Pour démarrer : le bord gauche du pad est à `padx`. Où est son bord droit ?
 
 </details>
 
