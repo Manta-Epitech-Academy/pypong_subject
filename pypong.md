@@ -318,7 +318,7 @@ Utilise une triple condition avec les variables `ballx`, `bally`, `padx`, `pady`
 </details>
 
 ### Ajouter une interface
-<!-- ws: {type: exercise, id: interface, points: 200} -->
+<!-- ws: {type: exercise, id: interface, optional: true, points: 200} -->
 
 #### Le score
 <!-- ws:doit -->

@@ -20,7 +20,7 @@ Le texte est du Markdown normal, lisible tel quel sur GitHub. Tout ce dont la pl
 
 - **Mode** : `instructor_led`
 - **Validation** : `checkpoint`
-- **Points par étape** : XP par étape repris de LuaPong (10 XP par minute estimée, en multiples de 5), fixés étape par étape (1400 XP au total, pour une durée estimée d'environ 2 h 20). Les points CTFd sont les XP Jump, un pour un. On les change ici, puis on resynchronise : jamais à la main dans l'admin CTFd.
+- **Points par étape** : XP par étape repris de LuaPong (10 XP par minute estimée, en multiples de 5), fixés étape par étape (1200 XP au total, plus 200 XP pour l'étape bonus, pour une durée estimée d'environ 2 h 20). Les points CTFd sont les XP Jump, un pour un. On les change ici, puis on resynchronise : jamais à la main dans l'admin CTFd.
 
 | Étape | Validation | XP |
 |---|---|---|
@@ -33,7 +33,9 @@ Le texte est du Markdown normal, lisible tel quel sur GitHub. Tout ce dont la pl
 | Quiz : Le sens du rebond | quiz | 25 |
 | Checkpoint | code animateur | 50 |
 | Gérer le respawn et la collision avec le pad | code animateur | 300 |
-| Ajouter une interface | code animateur | 200 |
+| Bonus : Ajouter une interface | code animateur | 200 |
+
+L'étape bonus ne bloque rien et ne compte pas dans la progression : ses 200 XP s'ajoutent aux 1200 pour ceux qui la font.
 
 Dans une étape validée par quiz, seule la valeur de l'étape compte : les `points` des questions qu'elle contient sont ignorés.
 - **Runtime** : TIC-80 (`tic80` épinglé en `8ad976f`) — [tic80-web-editor_runtime](https://github.com/kevin-cazal/tic80-web-editor_runtime)
