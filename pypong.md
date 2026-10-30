@@ -4,7 +4,7 @@
 <!-- ws: {type: chapter, topology: linear} -->
 
 ### Prendre en main l'environnement
-<!-- ws: {type: exercise, id: prise-en-main, points: 10, validation: quiz} -->
+<!-- ws: {type: exercise, id: prise-en-main, points: 100, validation: quiz} -->
 
 #### Lance l'environnement
 <!-- ws:doit -->
@@ -48,7 +48,7 @@ Le plus simple pour bien comprendre le fonctionnement de TIC-80 consiste à part
 - C. start python
 
 ### Affichage du pad et de l’écran de jeu
-<!-- ws: {type: exercise, id: affichage-pad, points: 10, validation: quiz} -->
+<!-- ws: {type: exercise, id: affichage-pad, points: 100, validation: quiz} -->
 
 Ici tu vas taper tes premières lignes de code dans TIC-80.
 
@@ -116,7 +116,7 @@ Pour lancer ton code :
 <!-- ws: {type: chapter, topology: linear} -->
 
 ### Faire bouger le pad
-<!-- ws: {type: exercise, id: pad-mouvement, points: 20} -->
+<!-- ws: {type: exercise, id: pad-mouvement, points: 200} -->
 
 Pour faire bouger le pad avec le clavier, il faut :
 
@@ -172,7 +172,7 @@ La fonction **`btn`** prend en paramètre un nombre (3 : flèche droite du clavi
 
 </details>
 
-<!-- ws: {type: quiz, id: btn-doc, title: "Les touches du joueur", kind: multiple, points: 2} -->
+<!-- ws: {type: quiz, id: btn-doc, title: "Les touches du joueur", kind: multiple, points: 20} -->
 > Avec TIC-80, si je souhaite avoir l'état des touches haut et bas du joueur 1, je dois utiliser dans mon code (2 réponses correctes)
 
 * A. btn(0)
@@ -199,7 +199,7 @@ Améliore la gestion des mouvements du pad pour qu'il reste dans le carré de je
 
 
 ### Créer la balle rebondissante
-<!-- ws: {type: exercise, id: balle-mouvement, points: 15, validation: quiz} -->
+<!-- ws: {type: exercise, id: balle-mouvement, points: 150, validation: quiz} -->
 
 <!-- ws:toolbox -->
 > 🧰 **Outil #7 : La fonction `circ()`**
@@ -250,7 +250,7 @@ Tout d’abord, essaye de faire bouger la balle en diagonale vers le haut et ver
 - D. 240
 
 ### Faire rebondir la balle
-<!-- ws: {type: exercise, id: balle-rebond, points: 20} -->
+<!-- ws: {type: exercise, id: balle-rebond, points: 200} -->
 
 Pour faire rebondir la balle, tu dois inverser la direction de la balle en fonction de sa position à l’écran.
 
@@ -274,7 +274,7 @@ Tu as 3 cas à gérer : la balle doit rebondir quand elle touche
 
 ![La balle rebondit sur la bordure du haut, puis sur la bordure de droite. En bas, rien ne l'arrête pour l'instant.](img/balle-rebond.gif)
 
-<!-- ws: {type: quiz, id: rebond, title: "Le sens du rebond", kind: match, points: 2} -->
+<!-- ws: {type: quiz, id: rebond, title: "Le sens du rebond", kind: match, points: 20} -->
 > Fais correspondre la vitesse initiale de la balle sur un axe avec sa nouvelle vitesse sur ce même axe, pour qu'elle reparte dans l'autre sens.
 
 - A. 0
@@ -285,7 +285,7 @@ Tu as 3 cas à gérer : la balle doit rebondir quand elle touche
 - c. -2
 
 ### Checkpoint
-<!-- ws: {type: exercise, id: checkpoint, points: 5} -->
+<!-- ws: {type: exercise, id: checkpoint, points: 50} -->
 
 Vérifie le comportement de ton programme :
 - Les flèches gauche et droite de ton clavier font bouger le pad dans les deux directions
@@ -293,7 +293,7 @@ Vérifie le comportement de ton programme :
 
 
 ### Gérer le respawn et la collision avec le pad
-<!-- ws: {type: exercise, id: respawn, points: 25} -->
+<!-- ws: {type: exercise, id: respawn, points: 250} -->
 
 #### Respawn
 <!-- ws:doit -->
@@ -318,7 +318,7 @@ Utilise une triple condition avec les variables `ballx`, `bally`, `padx`, `pady`
 </details>
 
 ### Ajouter une interface
-<!-- ws: {type: exercise, id: interface, points: 30} -->
+<!-- ws: {type: exercise, id: interface, points: 300} -->
 
 #### Le score
 <!-- ws:doit -->
