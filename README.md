@@ -2,7 +2,7 @@
 
 Créez votre propre jeu Pong simplifié en Python avec TIC-80 !
 
-Contenu d'atelier au format **convention 2.0**, prêt à être importé dans une instance CTFd par la plateforme [CTFd_coding_platform](https://github.com/kevin-cazal/CTFd_coding_platform).
+Contenu d'atelier au format **convention 2.0**, prêt à être importé dans une instance CTFd par la plateforme [ctfd-workshop-platform](https://github.com/Manta-Epitech-Academy/ctfd-workshop-platform).
 
 ## Ce que contient ce dépôt
 
@@ -38,7 +38,7 @@ Le texte est du Markdown normal, lisible tel quel sur GitHub. Tout ce dont la pl
 L'étape bonus ne bloque rien et ne compte pas dans la progression : ses 200 XP s'ajoutent aux 1200 pour ceux qui la font.
 
 Dans une étape validée par quiz, seule la valeur de l'étape compte : les `points` des questions qu'elle contient sont ignorés.
-- **Runtime** : TIC-80 (`tic80` épinglé en `8ad976f`) — [tic80-web-editor_runtime](https://github.com/kevin-cazal/tic80-web-editor_runtime)
+- **Runtime** : TIC-80 (`tic80` épinglé en `8ad976f`) — [tic80-web-editor_runtime](https://github.com/Manta-Epitech-Academy/tic80-web-editor_runtime)
 
 ## Les réponses
 
@@ -52,8 +52,8 @@ GPG_PASSPHRASE=... ./encrypt.sh   # après avoir modifié les réponses
 ## Mettre cet atelier en ligne
 
 ```sh
-git clone https://github.com/kevin-cazal/CTFd_coding_platform
-cd CTFd_coding_platform
+git clone https://github.com/Manta-Epitech-Academy/ctfd-workshop-platform
+cd ctfd-workshop-platform
 docker compose up -d                      # CTFd sur :8080
 python3 tools/sync_subject.py <ce-depot> \
     --url http://localhost:8080 --admin-user admin --admin-pass ...
@@ -63,6 +63,6 @@ Relancer la commande met le contenu à jour : les étapes sont réconciliées pa
 
 ## Écrire ou modifier du contenu
 
-La convention complète est dans [`docs/CONTENT_CONVENTION.md`](https://github.com/kevin-cazal/CTFd_coding_platform/blob/main/docs/CONTENT_CONVENTION.md), la version courte dans [`docs/CONTRIBUER.md`](https://github.com/kevin-cazal/CTFd_coding_platform/blob/main/docs/CONTRIBUER.md).
+La convention complète est dans [`docs/CONTENT_CONVENTION.md`](https://github.com/Manta-Epitech-Academy/ctfd-workshop-platform/blob/main/docs/CONTENT_CONVENTION.md), la version courte dans [`docs/CONTRIBUER.md`](https://github.com/Manta-Epitech-Academy/ctfd-workshop-platform/blob/main/docs/CONTRIBUER.md).
 
 Deux règles de fond : le contenu s'écrit **en français**, en phrases simples, pour des lycéens de 15 à 18 ans — et **on ne donne jamais la réponse**, ni dans le texte ni dans les indices.
