@@ -38,7 +38,7 @@ Le texte est du Markdown normal, lisible tel quel sur GitHub. Tout ce dont la pl
 L'étape bonus ne bloque rien et ne compte pas dans la progression : ses 200 XP s'ajoutent aux 1200 pour ceux qui la font.
 
 Dans une étape validée par quiz, seule la valeur de l'étape compte : les `points` des questions qu'elle contient sont ignorés.
-- **Runtime** : TIC-80 (`tic80` épinglé en `8ad976f`) — [tic80-web-editor_runtime](https://github.com/Manta-Epitech-Academy/tic80-web-editor_runtime)
+- **Runtime** : TIC-80 (`tic80` épinglé en `8a7cb53`) — [tic80-web-editor_runtime](https://github.com/Manta-Epitech-Academy/tic80-web-editor_runtime)
 
 ## Les réponses
 
